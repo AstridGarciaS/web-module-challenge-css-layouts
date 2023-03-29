@@ -1,1 +1,133 @@
+<<<<<<< Updated upstream
 /* Add CSS styling here */
+=======
+*{
+
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(250,128,114);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.h1{
+   color: rgb(245,245,220);
+   font-size: xx-large;
+}
+footer{
+    background-color:  rgb(250,128,114);
+    text-align: center;
+    padding: 20px;
+}
+
+.topsection{
+    display: flex;
+    justify-content: center;
+
+}
+.toptext{
+    width: 50%;
+    text-align: center;
+    padding: 25%;
+}
+
+.description{
+    padding: 40px;
+    width:50%;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.porfolio-element{
+    text-align: center;
+
+}
+
+button{
+    background-color: rgb(245,245,220);
+    color: rgb(97,83,22);
+    border: rgb(245,245,220) solid 1px;
+    padding: 5px 20px;
+    border: 8%;
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    padding: 5px 10px;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+.porfolio-piece{
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    .row div{
+        width: 20%;
+    }
+    .topsection img{
+        width: 40%;
+    }
+
+}
+@media(max-width: 500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    nav a{
+        align-items: center;
+    }
+    button{
+        width:40%;
+        margin: 1% 0;
+    }
+    .topsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topsection div{
+        width: 90%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div{
+        width: 40%;
+        margin: 4%;
+    }
+    .description{
+        text-align: center;
+    }
+}
+>>>>>>> Stashed changes
